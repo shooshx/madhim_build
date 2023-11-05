@@ -1,0 +1,7 @@
+﻿; madhim_vsp.def : Declares the module parameters.
+
+LIBRARY      "madhim_vsp.DLL"
+
+EXPORTS
+	DllCanUnloadNow            PRIVATE
+	DllGetClassObject          PRIVATE

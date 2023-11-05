@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="extension">
+      <UniqueIdentifier>{841b374a-f609-4c4f-ac7d-8562d0d2d3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{61eaf033-b137-428c-85a0-122d5e49f66a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Guids.cpp">
+      <Filter>extension</Filter>
+    </ClCompile>
+    <ClCompile Include="Module.cpp">
+      <Filter>extension</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>extension</Filter>
+    </ClCompile>
+    <ClCompile Include="do_hooks.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\create_process.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonIncludes.h">
+      <Filter>extension</Filter>
+    </ClInclude>
+    <ClInclude Include="Guids.h">
+      <Filter>extension</Filter>
+    </ClInclude>
+    <ClInclude Include="Package.h">
+      <Filter>extension</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>extension</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\utils.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="madhim_vsp.rc">
+      <Filter>extension</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="madhim_vsp.def">
+      <Filter>extension</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="madhim_vsp.idl">
+      <Filter>extension</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <PkgdefFile Include="madhim_vsp.pkgdef">
+      <Filter>extension</Filter>
+    </PkgdefFile>
+  </ItemGroup>
+</Project>

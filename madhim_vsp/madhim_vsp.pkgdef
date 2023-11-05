@@ -1,0 +1,24 @@
+﻿[$RootKey$\Packages\{cf4a9039-b35f-4a77-becd-23f033739e8a}]
+@="madhim_vsp Package"
+"InprocServer32"="$PackageFolder$\madhim_vsp.dll"
+"CompanyName"="n/a"
+"ProductName"="Madhim Build"
+"ProductVersion"="1.0"
+
+[$RootKey$\Packages\{cf4a9039-b35f-4a77-becd-23f033739e8a}\SatelliteDll]
+"DllName"="madhim_vspUI.dll"
+"Path"="$PackageFolder$"
+
+[$RootKey$\Menus]
+"{cf4a9039-b35f-4a77-becd-23f033739e8a}"=", 1000, 1"
+
+[$RootKey$\InstalledProducts\madhim_vsp]
+@="#100"
+"Package"="{cf4a9039-b35f-4a77-becd-23f033739e8a}"
+"ProductDetails"="#102"
+"LogoID"="#400"
+"PID"="1.0"
+"UseInterface"=dword:00000000
+
+
+
